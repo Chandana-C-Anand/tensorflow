@@ -3,7 +3,7 @@ JavaScript exercise for Wiznet .
 
 #  Features:
 
-  - Through this excercise , I have created some simple webpages for CDI Kengeri Campus .
+  - Through this exercise , I have created some simple webpages for CDI Kengeri Campus .
   - The webpages consists of : Shopping cart for wiznet devices from local inventory,Registration form for employees,along with pages about CDI Kengeri and its existing employees. 
   
   
