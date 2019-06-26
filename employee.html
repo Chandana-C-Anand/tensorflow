@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CDI Kengeri | Join</title>
+    <meta name="description" content="This is the description">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="employee_style.css">
+	 
+</head>
+
+<body>
+    <header class="main-header">
+        <nav class="nav main-nav">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="store.html">STORE</a></li>
+                <li><a href="CDI_family.html">CDI FAMILY</a></li>
+                <li><a href="employee.html">JOIN US</a></li>
+            </ul>
+        </nav>
+        <h1 class="band-name band-name-large">Join as Employee at CDI Kengeri </h1>
+    </header>
+	<br>
+	
+	<section class="content-section container">
+    
+	 
+	
+        <table align="center" >
+            <tr>
+                <td>
+                    <form name="RegForm" onsubmit="event.preventDefault();onFormSubmit();" autocomplete="off">
+                        <div>
+						<span class="label First Name*">First Name*</span>
+                            <label class="validation-error hide" id="fullNameValidationError">This field is required.</label>
+                            <input type="text" name="firstName" id="firstName">
+                        </div>
+						<div>
+						<span class="label Last Name">Last Name</span>
+                             <input type="text" name="lastName" id="lastName" >
+                        </div>
+                        
+                        <div>
+						<span class="label Email">Email</span>
+                            
+                            <input type="text" name="email" id="email">
+                        </div>
+                        <div>
+						<span class="label Phone">Phone No.</span>
+                           
+                            <input type="text" name="phone" id="phone">
+                        </div>
+                        <div>
+						<span class="label Salary">Expected Salary</span>
+                           
+                            <input type="text" name="salary" id="salary">
+                        </div>
+                        <div>
+						<span class="label City">City</span>
+                            
+                            <input type="text" name="city" id="city">
+                        </div>
+                        <div class="form-action-buttons">
+                            <input type="submit" value="Submit">
+                        </div>
+                    </form>
+                </td>
+				
+		
+			
+		</table>
+	
+	<br>
+	
+        <table align="center" class="list" id="employeeList">
+                 <thead>
+                     <tr>
+					
+				         <th>First Name</th>
+						 <th>Last Name</th>
+                         <th>Email</th>
+                         <th>Phone No.</th>
+                         <th>Expected Salary</th>
+                         <th>City</th>
+                         <th>Edit/Delete</th>
+					 </tr>
+			     </thead>
+				 
+				 <tbody>
+					
+                 </tbody>
+        
+		 
+		</table>
+		
+        </br>
+
+		 
+		</section>
+		
+		<script src="script.js"async></script>
+	
+		
+		<footer class="main-footer">
+            <div class="container main-footer-container">
+                <h3 class="band-name">CDI at Kengeri</h3>
+                 <ul class="nav footer-nav">
+                    <li>
+                        <a href="https://www.youtube.com/channel/UCzAD6lPbKEwzgI-FIF45A3g" target="_blank">
+                            <img src="Images/YouTube Logo.png">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://cuic.christuniversity.in/page/cdi-home" target="_blank">
+                            <img src="Images/cdi_logo.png">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/maker.wiznet.io/" target="_blank">
+                            <img src="Images/Facebook Logo.png">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+		</footer>
+</body>
+</html>
